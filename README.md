@@ -1,0 +1,2 @@
+# ExceptionMachineGun
+Fires Arithmetic exceptions with 1 / 0, then catches it with try/catch, and recursively calls itself again. After stack is full it throws StackOverflowError, it catches that, the stack is emptied, and now the machine gun has been reloaded. Then while loop starts it all over again.
